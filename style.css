@@ -27,9 +27,10 @@ header{
 }
 .grupo{
 
-    height: 450px;
+    height: 300px;
     display: flex;
     align-items: center;
+    
 
 }
 .titulo{
@@ -95,4 +96,42 @@ footer{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 640px){
+    .main{
+        height: 1000px;
+    }
+    .titulo{
+        font-size: 10vw;
+        margin-left: 520px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: unset;
+    }
+    .grupo{
+        width: 100vw;
+        place-self: start center;
+        align-items: center;
+        margin-left: 472px;
+        margin-block-end: 200px;
+    }
+    .info{
+        font-size: 5vw;
+        padding-bottom: 300px;
+        align-items: center;
+    }
+    .am{
+        width: 101vw;
+    }
+    .contexto{
+        display: none;
+    }
+    .tabela{
+        width: 10vw;
+    }
+    .subtitulo{
+        display: none;
+    }
+
+
 }
