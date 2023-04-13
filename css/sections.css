@@ -1,0 +1,90 @@
+.intro-container{
+    background-image: url(../img/im-not-a-wall.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh
+
+}
+
+.container-music{
+    display: grid;
+    grid-template-areas: 
+    "nome imagem"
+    ;
+    grid-auto-columns: 2fr 1.8fr;
+    background-color: #fff;
+    height: 58vh;
+    width: 57vw;
+    align-items: center;
+
+}
+
+.container-left{
+    grid-area: nome;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tittle{
+    grid-area: titulo1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #a3a384;
+}
+
+.tittle2{
+    grid-area: titulo2;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+}
+
+.box-words{
+    display: grid;
+    grid-template-areas: 
+    "titulo1"
+    "titulo2";
+    grid-template-rows: 
+    1fr
+    1fr;
+    align-items: center;
+    font-family: 'Bakbak One', cursive;
+    font-size: 3rem;
+}
+
+.box-buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 15vw;
+    border: 4px solid #A0A081;
+    color: #74745c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.music-image{
+    grid-area: imagem;
+    width: 26vw;
+}
+
+.box-buy:hover{
+    color: #fff;
+    background-color: #74745c;
+    transition: .5s;
+
+}

@@ -1,25 +1,38 @@
 header{
-    height: 15vh;
+    height: 9vh;
+    width: 100%;
     background-color:#A0A081;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2%;
-
+    padding-left: 15%;
+    padding-right: 15%;
+    position: fixed;
+    top:0;
+    left: 0;
 }
 
-.header-name{
-    display: grid;
-    grid-template-areas: 
-    "arctic"
-    "monkeys";
-    grid-template-rows: 
-    .2fr
-    .2fr;
-    justify-items: center;
-    font-family: 'Bakbak One', cursive;
-    font-size: 2.5rem;
+.marketing-list{
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+    font-size: 1.2rem;
+    font-family:  'Bakbak One', cursive;
     
+    
+}
+.header-name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Bakbak One', cursive;
+    font-size: 2rem;
+    
+}
+
+
+.social{
+    font-size: 2rem;
 }
 
