@@ -22,7 +22,6 @@
     
 }
 
-
 .singers{
     width: 90vw;
     display: flex;
@@ -37,9 +36,10 @@
     align-items: center;
     font-size: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .5s;
 }
 
-img:hover {
-    width: 18vw;
-    transition: .5s;
+.singer:hover {
+    color: #ffffff;
+    transform: scale(1.1);
 }
