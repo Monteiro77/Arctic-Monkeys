@@ -1,8 +1,8 @@
 .container-musics{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-around;
-    text-align: center;
     width: 100%;
     height: 100vh;
     background: linear-gradient(#A0A081, #ffffff);
@@ -10,25 +10,63 @@
     
 }
 
-.tittle-musics{
-
+.title-musics{
+    font-family: 'Karantina', cursive;
+    font-size: 5.5rem;
 }
 
-.box-musics{
-    
-    
+.musics-title{
+    letter-spacing: 10px;
 }
+
 
 .container-albuns{
+    width: 80%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 5%;
 }
 
 .album{
     width: 15vw;
+    transition: 1s;
 }
 
+.album2{
+    width: 16vw;
+    height: 32vh;
+    background-image: url(../img/capa-album.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+.album3{
+    width: 16vw;
+    height: 32vh;
+    background-image: url(../img/Arctic-Monkeys-R-U-Mine.jpg);
+    background-size: cover;
+    transition: 1s;
+}
+
+.box-musics{
+    display: flex;
+    text-align: center;
+    transition: .5s;
+}
 .music{
     display: flex;
     flex-direction: column;
+}
+.name-music{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;    
+}
+
+
+
+
+.box-musics :hover{
+        color: #ffffff;
+        transform: scale(1.1);
 }
